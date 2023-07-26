@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-radius: 4px;
+  width: 100%;
+  &_iconContainer {
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    svg {
+      color: aliceblue;
+      font-size: 60px;
+    }
+  }
+  &_contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}

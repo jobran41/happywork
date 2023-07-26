@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-radius: 4px;
+  width: 100%;
+  &_iconContainer {
+  /* ​Mama​​n​ & ​Bébé */
+
+
+
+
+font-family: 'Pecita';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+background: linear-gradient(91.14deg, #FCA785 9.87%, #FA5769 87.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+  }
+  &_contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+}
+.buttonMenu{
+
+
+background: linear-gradient(91.14deg, #FCA785 9.87%, #FB8077 51.45%, #FA5165 87.37%);
+transform: rotate(180deg);
+}

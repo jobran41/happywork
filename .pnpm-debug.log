@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "happywork-admin-web@1.0.0",
+    "stage": "dev",
+    "script": "next dev -p 4000",
+    "pkgname": "happywork-admin-web",
+    "err": {
+      "name": "pnpm",
+      "message": "happywork-admin-web@1.0.0 dev: `next dev -p 4000`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: happywork-admin-web@1.0.0 dev: `next dev -p 4000`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/home/khmiri/.nvm/versions/node/v16.14.2/lib/node_modules/pnpm/dist/pnpm.cjs:93301:22)\n    at ChildProcess.emit (node:events:526:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
